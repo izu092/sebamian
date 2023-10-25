@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  scroll-behavior: smooth;
+  font-family: 'Jost', sans-serif;
+  list-style: none;
+  text-decoration: none;
+ 
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 50px;
+  padding-right: 250px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.navbar h1 {
+  padding-bottom: 45px;
+}
+
+.center {
+  color: #2c2c2c;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.navmenu {
+  display: flex;
+}
+.navmenu a {
+  color: #2c2c2c;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all .42s ease;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-left: 100px;
+}
+.navmenu a:hover{
+  color: green;
+}
+.center a {
+  padding-right: 40px;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 80%;
+  top: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 8%;
+  height: 5px;
+}
+.nav-icon i{
+  margin-right: 20px;
+  color: #2c2c2c;
+  font-size: 25px;
+  font-weight: 400;
+  transition: all .42s ease;
+}
+.nav-icon i:hover{
+  transform: scale(1.2);
+  color: green;
+}
+.main-text{
+  top: 30%;
+  font-size: 35px;
+  color: #fff;
+  z-index: 10001;
+  cursor: pointer;
+}
+
+.main-home{
+  top: 50px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  
+
+
+}
+.main-text h1{
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-weight: 600;
+  position: absolute;
+  top: 15vh;
+  left: 30px;
+  
+  
+}
+.main-text p{
+  color: #7B904B;
+  font-size: 20px;
+  font-style: italic;
+  position: absolute;
+  top: 22vh;
+  left: 30px;
+  
+}
+.main-btn{
+  display: inline-block;
+  color: #fff; font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500; border: 2px solid #7B904B; padding: 12px 25px;    transition: all .42s ease;
+  border-radius: 8px;
+}
+.main-btn:hover{
+  background-color: #7B904B;
+  color: black;
+}
+.main-btn i{
+  vertical-align: middle;
+}
+
+.main-body {
+  
+  position: relative;
+  width: 1100px;
+  height: 600px;
+  
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 15vh;
+  background-color: #002400;
+
+ 
+  
+}
+
+#fname {
+  position: absolute;
+  top: 50px;
+  left: 5vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+  padding-right: 10px;
+}
+#fname1 {
+ 
+  position: fixed;
+  top: 29vh;
+  font-size: 20px;
+  left: 23vh;
+
+}
+
+#lname {
+  position: absolute;
+  top: 50px;
+  left: 60vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+#lname1 {
+ 
+  position: fixed;
+  top: 29vh;
+  font-size: 20px;
+  left: 78vh;
+
+}
+
+#ename {
+  position: absolute;
+  top: 127px;
+  left: 5vh;
+  width: 105vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  letter-spacing: 5px;
+  padding: 5px;
+}
+#ename1 {
+ 
+  position: fixed;
+  top: 361px;
+  font-size: 20px;
+  left: 23vh;
+
+}
+
+#aname {
+  position: absolute;
+  top: 205px;
+  left: 5vh;
+  width: 105vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  letter-spacing: 5px;
+  padding: 5px;
+}
+#aname1 {
+ 
+  position: fixed;
+  top: 440px;
+  font-size: 20px;
+  left: 23vh;
+
+}
+
+#aaname {
+  position: absolute;
+  top: 280px;
+  left: 5vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+  padding-right: 10px;
+}
+#aaname1 {
+ 
+  position: fixed;
+  top: 520px;
+  font-size: 20px;
+  left: 23vh;
+
+}
+
+#pname {
+  position: absolute;
+  top: 280px;
+  left: 60vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+#pname1 {
+ 
+  position: fixed;
+  top: 520px;
+  font-size: 20px;
+  left: 78vh;
+
+}
+
+#cname {
+  position: absolute;
+  top: 360px;
+  left: 5vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+  padding-right: 10px;
+}
+#cname1 {
+ 
+  position: fixed;
+  top: 600px;
+  font-size: 20px;
+  left: 23vh;
+
+}
+
+#rname {
+  position: absolute;
+  top: 360px;
+  left: 60vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+#rname1 {
+ 
+  position: fixed;
+  top: 600px;
+  font-size: 20px;
+  left: 78vh;
+
+}
+
+#phname {
+  position: absolute;
+  top: 430px;
+  left: 5vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+#phname1 {
+ 
+  position: fixed;
+  top: 670px;
+  font-size: 20px;
+  left: 23vh;
+
+}
+
+#rename {
+  position: absolute;
+  top: 430px;
+  left: 60vh;
+  width: 50vh;
+  height: 3vh;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+#rename1 {
+ 
+  position: fixed;
+  top: 670px;
+  font-size: 20px;
+  left: 78vh;
+
+}
+
+.Order {
+  
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background: #EAFFD0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  right: 40px;
+
+}
+
+.cart {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 1vh;
+  letter-spacing: 5px;
+}
+.cart-img {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica,"sans-serif";
+  transition: all .2s;
+  padding: 7px 220px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  position: absolute;
+  top: 60px;
+}
+
+button:hover {
+  background: white;
+}
+
+button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+
+#items {
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  font-size: 20px;
+}
+
+#price {
+  position: absolute;
+  top: 120px;
+  right: 30px;
+  font-size: 20px;
+}
+
+
+#shipping {
+  position: absolute;
+top: 153px;
+left: 30px;
+font-size: 20px;
+display: block;
+}
+
+#duties {
+  position: absolute;
+  top: 182px;
+  left: 30px;
+  font-size: 20px;
+  display: block;
+}
+
+#total {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  font-size: 30px;
+  display: block;
+}
+
+
+
+.promo {
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  font-size: 20px;
+  display: block;
+}

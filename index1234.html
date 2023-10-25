@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style12345.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <h1><b>Sebamian</h1>
+    <div class="center">
+      <ul class="navmenu">
+        <a href="#">Home</a>
+        <a href="#menu">Shop</a>
+        <a href="#shop2">Products</a>
+      </ul>
+    </div>
+
+      <div class="nav-icon">
+
+        <a href="#"><i class='bx bx-search'></i></a>
+        <i class='bx bx-user' onclick="toggleMenu()"></i>
+
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="uer-info">
+                    <a href="#"><i class='bx bx-user'></i></a>
+                    <h2>User Name</h2>
+                </div>
+                <hr>
+                <a href="#" class="sub-menu-link">
+                    <i class='bx bx-store'></i>
+                    <p>Shop By Departments</p>
+                    <span></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <i class='bx bxs-leaf'></i>
+                    <p>Vegetables and Fruits</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <i class='bx bxs-popsicle'></i>
+                    <p>Snacks</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <i class='bx bxs-shopping-bag' ></i>
+                    <p>Handwoven-Products</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link">
+                    <i class='bx bxs-chat' ></i>
+                    <p>Customer Service</p>
+                    <span>></span>
+                </a>
+
+                <a href="index.html" class="sub-menu-link">
+                    <i class='bx bx-log-out'></i>
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+
+        </div>
+
+
+
+        <i class='bx bx-cart' onclick="toggleMenu1()"></i>
+
+
+        
+        <div class="sub-menu-wrap1" id="subMenu1">
+            <div class="sub-menu1">
+                <div class="uer-info1">
+                    <a href="#"><i class='bx bx-user'></i></a>
+                    <h2>User Name</h2>
+                </div>
+                <hr>
+                <a href="#" class="sub-menu-link1">
+                    
+                    <p>CHECKOUT</p>
+                    <span></span>
+                </a>
+
+                <a href="#" class="sub-menu-link1">
+                    <img src="393599213_836826824593026_906202040875601962_n.jpg" alt="">
+                    <p>Pastillas</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link1">
+                    <img src="12345.jpg" alt="">
+                    <p>Banig / Carpet</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="sub-menu-link1">
+                    <img src="395365312_1546763896155314_6206306565715830911_n.jpg" alt="">
+                    <p>Lanzones</p>
+                    <span>></span>
+                
+
+                <a href="index30.html" class="sub-menu-link1">
+                    <i class='bx bx-log-out'></i>
+                    <p>Checkout</p>
+                    
+                </a>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+
+
+    </div>
+    </div>
+  </header>
+
+  <section class="main-home">
+    <div class="main-text">
+      <h1>Naga's Local <br> Products</h1>
+      <p>Nothing's like our local products</p>
+
+      <a href="#" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+    
+  </section>
+  <!--Products -->
+  <section class="menu">
+    <div class="up-center-text">
+      <h2>Our Products</h2>
+    </div>
+    <div class="update-cart">
+      <div class="cart">
+        <a href="#shop2"><img src="veg.jpg" alt=""></a>
+        <h1>Fruits & Vegetables  </h1>
+        <p>This section contains various <span>Fruits and Vegetables</span> from local farmers in Naga City.</p>
+      </div>
+
+    <div class="cart">
+      <a href="#shop1"><img src="snacks.jpg" alt=""></a>
+      <h1>Snacks</h1>
+      <p>This section contains <span>Sweet and Tasty Snacks</span> from Naga City.</p>
+    </div>
+
+    <div class="cart">
+      <a href="#shop4"><img src="woven.png" alt=""></a>
+      <h1>Handwoven Products</h1>
+      <p>This section contains locally <span>Handmade Woven Products</span></p>
+    </div>
+    </div>
+  </section>
+  <!--Shop Menu -->
+  <section class="shop-menu" id="shop2">
+    <div class="center-text">
+      <h2>Shop At Our <span>Local Products Now</span></h2>
+      <h1>Fruits & Vegetables</h1>
+    </div>
+    
+    <div class="products">
+      <div class="row">
+        <a href="index30.html"><img src="potatoes.jpg" alt=""></a>
+        <div class="product-text">
+          <h1>Buy Now</h1>
+        </div>
+        <div class="rating">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+          <i class='bx bx-star'></i>
+        </div>
+      <div class="price">
+        <h4>Potatoes</h4>
+        <p>₱109 per Kilo</p>
+      </div>
+    </div>
+        <div class="row">
+          <a href="index30.html"><img src="ampalaya.png" alt=""></a>
+            <div class="product-text">
+              <h1>Buy Now</h1>
+            </div>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </div>
+          <div class="price">
+            <h4>Amapalaya</h4>
+            <p>₱93 per Kilo</p>
+          </div>
+        </div>
+          
+          <div class="row">
+            <a href="index30.html"><img src="taro.jpg"alt=""></a>
+              <div class="product-text">
+                <h1>Buy Now</h1>
+              </div>
+              <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+              </div>
+            <div class="price">
+              <h4>Dried Natong</h4>
+              <p>₱170 per Kilo</p>
+            </div>
+          </div>
+
+            <div class="row">
+              <a href="index30.html"><img src="santol.jpg" alt=""></a>
+                <div class="product-text">
+                  <h1>Buy Now</h1>
+                </div>
+                <div class="rating">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+              <div class="price">
+                <h4>Santol</h4>
+                <p>₱80 per Kilo</p>
+              </div>
+            </div>
+
+              <div class="row">
+                <a href="index30.html"><img src="lanzones.jpg" alt=""></a>
+                  <div class="product-text">
+                    <h1>Buy Now</h1>
+                  </div>
+                  <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                  </div>
+                <div class="price">
+                  <h4>Lanzones</h4>
+                  <p>₱100 per Kilo</p>
+                </div>
+              </div>
+
+                <div class="row">
+                  <a href="index30.html"><img src="rambutan.jpg" alt=""></a>
+                    <div class="product-text">
+                      <h1>Buy Now</h1>
+                    </div>
+                    <div class="rating">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star-half'></i>
+                    </div>
+                  <div class="price">
+                    <h4>Rambutan</h4>
+                    <p>₱70 per Kilo</p>
+                  </div>
+                </div>
+                </div>
+              </section>
+  <!-- SNACKS -->
+  <section class="snacks-menu" id="shop1">
+    <div class="center-text2" id="shop1" >
+      <h2>Shop At Our <span>Local Products Now</span></h2>
+      <h1 id="">Sweet and Tasty Snacks</h1>
+    </div>
+
+    <div class="products2">
+      <div class="row2">
+        <a href="index30.html"><img src="pilinut.png" alt=""></a>
+        <div class="product-text">
+          <h1>Buy Now</h1>
+        </div>
+        <div class="rating">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+          <i class='bx bx-star'></i>
+        </div>
+      <div class="price">
+        <h4>Pili Nuts</h4>
+        <p>₱50 - ₱150</p>
+      </div>
+    </div>
+        <div class="row2">
+          <a href="index30.html"><img src="yemax.jpg" alt=""></a>
+            <div class="product-text">
+              <h1>Buy Now</h1>
+            </div>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </div>
+          <div class="price">
+            <h4>Yema</h4>
+            <p>₱25 - ₱50</p>
+          </div>
+        </div>
+
+          <div class="row2">
+            <a href="index30.html"><img src="pastillas.jpg"alt=""></a>
+              <div class="product-text">
+                <h1>Buy Now</h1>
+              </div>
+              <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+              </div>
+            <div class="price">
+              <h4>Pastillas</h4>
+              <p>₱50 - ₱200</p>
+            </div>
+          </div>
+
+            <div class="row2">
+              <a href="index30.html"><img src="sampalok.jpg" alt=""></a>
+                <div class="product-text">
+                  <h1>Buy Now</h1>
+                </div>
+                <div class="rating">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+              <div class="price">
+                <h4>Sampalok</h4>
+                <p>₱50 - ₱100</p>
+              </div>
+            </div>
+
+              <div class="row2">
+                <a href="index30.html"><img src="polvoron.jpg" alt=""></a>
+                  <div class="product-text">
+                    <h1>Buy Now</h1>
+                  </div>
+                  <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                  </div>
+                <div class="price">
+                  <h4>Polvoron</h4>
+                  <p>₱90 - ₱202</p>
+                </div>
+              </div>
+
+                <div class="row2">
+                  <a href="index30.html"><img src="tart.jpg" alt=""></a>
+                    <div class="product-text">
+                      <h1>Buy Now</h1>
+                    </div>
+                    <div class="rating">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star-half'></i>
+                    </div>
+                  <div class="price">
+                    <h4>Pili Tart</h4>
+                    <p>₱50 - ₱150</p>
+                  </div>
+                </div>
+                </div>
+              </section>
+  <!--Handwoven Products-->
+  <section class="abaca-menu" id="shop4">
+    <div class="center-text3">
+      <h2>Shop At Our <span>Local Products Now</span></h2>
+      <h1>Handwoven Products</h1>
+    </div>
+
+    <div class="products3">
+      <div class="row3">
+        <a href="index30.html"><img src="bag.jpg" alt=""></a>
+        <div class="product-text">
+          <h1>Buy Now</h1>
+        </div>
+        <div class="rating">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+          <i class='bx bx-star'></i>
+        </div>
+      <div class="price">
+        <h4>Bags</h4>
+        <p>₱400 - ₱500</p>
+      </div>
+    </div>
+        <div class="row3">
+          <a href="index30.html"><img src="slippers.png" alt=""></a>
+            <div class="product-text">
+              <h1>Buy Now</h1>
+            </div>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bx-star'></i>
+            </div>
+          <div class="price">
+            <h4>Slippers</h4>
+            <p>₱75 - ₱100</p>
+          </div>
+        </div>
+
+          <div class="row3">
+            <a href="index30.html"><img src="basket.jpg"alt=""></a>
+              <div class="product-text">
+                <h1>Buy Now</h1>
+              </div>
+              <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+              </div>
+            <div class="price">
+              <h4>Basket</h4>
+              <p>₱200 - ₱300</p>
+            </div>
+          </div>
+
+            <div class="row3">
+              <a href="index30.html"><img src="furnitures.png" alt=""></a>
+                <div class="product-text">
+                  <h1>Buy Now</h1>
+                </div>
+                <div class="rating">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star-half'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+              <div class="price">
+                <h4>Furnitures</h4>
+                <p>₱400 - ₱800</p>
+              </div>
+            </div>
+
+              <div class="row3">
+                <a href="index30.html"><img src="banig.jpg" alt=""></a>
+                  <div class="product-text">
+                    <h1>Buy Now</h1>
+                  </div>
+                  <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                  </div>
+                <div class="price">
+                  <h4>Banig / Carpets</h4>
+                  <p>₱90 - ₱150</p>
+                </div>
+              </div>
+
+                <div class="row3">
+                  <a href="index30.html"><img src="hats.jpg" alt=""></a>
+                    <div class="product-text">
+                      <h1>Buy Now</h1>
+                    </div>
+                    <div class="rating">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star-half'></i>
+                    </div>
+                  <div class="price">
+                    <h4>Hats</h4>
+                    <p>₱75 - ₱100</p>
+                  </div>
+                </div>
+                </div>
+              </section>
+  <!-- Contact Section -->
+  <section class="contact">  
+    <script src="java.js"></script>
+        <div class="contact-info">
+          <div class="first-info">
+            <img src="logos.png" alt="">
+
+            <p>Region V, Naga City, Camarines Sur, Philippines</p>
+            <p>+63 9204297086</p>
+            <p>sebamianph@gmail.com</p>
+
+            <div class="social-icon">
+              <a href="#"<i class='bx bxl-facebook' ></i></a>
+              <a href="#"<i class='bx bxl-instagram-alt' ></i></a>
+              <a href="#"<i class='bx bxl-twitter' ></i></a>
+            </div>
+          </div>
+          <div class="second-info">
+            <h1>Support</h1>
+            <p>Contact Us</p>
+            <p>About Us</p>
+            <p>Shopping & Returns</p>
+            <p>Privacy</p>
+          </div>
+
+            <div class="third-info">
+              <h1>Shop</h1>
+              <p>Fruits & Vegetables</p>
+              <p>Snacks</p>
+              <p>Handwoven Products</p>
+              <p>Discounts</p>
+            </div>
+
+          <div class="fourth-info">
+            <h1>Company</h1>
+            <p>About</p>
+            <p>Affiliate</p>
+            <p>Login</p>
+            <p>Socials</p>
+          </div>
+        </div>
+  </section>
+       
+  
+
+
+
+
+
+
+
+
+  <script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu")
+    }
+
+    let subMenu1 = document.getElementById("subMenu1");
+
+    function toggleMenu1(){
+        subMenu1.classList.toggle("open-menu1")
+    }
+</script>
+
+
+
+</body>
+
+</html>
